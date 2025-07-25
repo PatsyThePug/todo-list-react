@@ -1,0 +1,66 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #4d4d4d;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  color: #bfbfbf;
+  margin: 0;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done span {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* Mostrar el botón eliminar solo en hover */
+li button {
+  display: none;
+}
+
+li:hover button {
+  display: inline;
+}
