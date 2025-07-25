@@ -1,12 +1,28 @@
-# React + Vite
+# ⚛️ Aplicación de Todolist usando React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descripción  
+Aplicación de lista de tareas (To Do List) desarrollada con React. Permite al usuario agregar, completar y eliminar tareas fácilmente desde una interfaz limpia y responsiva. Ideal para organizar el día a día. ✅📋
 
-Currently, two official plugins are available:
+## ⚙️ Tecnologías usadas  
+- ⚛️ **React** – Librería para construir interfaces de usuario.  
+- 🖌️ **CSS** – Para estilos modernos y responsivos.  
+- 💻 **Vite** – Entorno de desarrollo rápido.  
+- 🧠 **JavaScript (ES6+)** – Lógica de interacción.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades  
+- ➕ Agrega tareas presionando `Enter`.  
+- 👀 El ícono ❌ solo aparece al pasar el cursor sobre una tarea.  
+- ✅ Marca tareas como completadas haciendo clic sobre ellas.  
+- 🗑️ Elimina tareas individualmente.  
+- 🆕 Muestra el mensaje: *"No hay tareas, añadir tareas"* cuando la lista está vacía.  
+- 📊 Muestra cuántas tareas faltan por completar.
 
-## Expanding the ESLint configuration
+## 📷 Vista previa  
+![Vista previa de la app](./src/assets/Captura%20de%20pantalla%20(670).png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Cómo ejecutarla localmente  
+```bash
+git clone https://github.com/PatsyThePug/todo-list-react
+cd todo-list-react
+npm install
+npm run dev
